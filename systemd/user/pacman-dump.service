@@ -1,0 +1,7 @@
+[Unit]
+Description=Dump list of installed packages into files in home
+# After=pacman-sync
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'pacman -Qm > ~/.pacman_foreign_pkgs && pacman -Qn > ~/.pacman_native_pkgs'
