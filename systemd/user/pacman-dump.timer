@@ -2,8 +2,8 @@
 Description=Regularily dump a list of installed packages
 
 [Timer]
-OnBootSec=0m
-OnUnitActiveSec=2h
+OnCalendar=hourly
+Persistent=true
 
 [Install]
 WantedBy=timers.target

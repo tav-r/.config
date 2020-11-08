@@ -16,6 +16,7 @@
     "cpu",
 	"temperature",
     "custom/system",
+    "tray",
     "battery"
   ],
   "custom/separator": {
@@ -88,5 +89,9 @@
   "sway/mode": {
     "format": " {}",
     "max-length": 50
+  },
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
   }
 }

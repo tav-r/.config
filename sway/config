@@ -6,7 +6,7 @@
 
 ### Variables
 # user defined variables
-set $background /home/tav/Pictures/autumn1.jpg
+set $background /home/tav/Pictures/winter2.jpg
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
