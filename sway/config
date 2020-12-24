@@ -6,7 +6,7 @@
 
 ### Variables
 # user defined variables
-set $background /home/tav/Pictures/winter2.jpg
+set $background /home/tav/Pictures/sky.jpg
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
@@ -18,7 +18,7 @@ set $right l
 set $lock 'grim /tmp/lockscreen.png && convert -filter Gaussian -resize 20% -blur 0x2.5 -resize 500% /tmp/lockscreen.png /tmp/lockscreen.png;swaylock -e -f -i /tmp/lockscreen.png'
 # Your preferred terminal emulator (colors from https://github.com/dracula/xresources.git)
 #set $term urxvt -bg "#282A36" -fg '#F8F8F2' -fn "xft:JetBrainsMono:pixelsize=13" +sb --color1 "#FF5555" --color0 "#000000" --color2 "#50FA7B" --color3 "#F1FA8C" --color4 "#BD93F9" --color5 "#FF79C6" --color6 "#8BE9FD" --color7 "707880" --color8 "#4D4D4D" --color9 "#FF6E67" --color10 "#5AF78E" --color11 "#F4F99D" --color12 "#CAA9FA" --color13 "#FF92D0" --color14 "#8abeb7" --color15 "#c5c8c6" 
-set $term alacritty
+set $term "SHELL=/bin/fish alacritty"
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
 set $menu dmenu_path | dmenu -nb '#000000' -nf '#ffffff' -sb '#722bad' -fn JetBrainsMono -sf '#ffffff' | xargs swaymsg exec --
